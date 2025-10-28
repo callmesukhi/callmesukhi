@@ -2,6 +2,7 @@ name: ❤️ Sponsorship / Support
 description: Inquire about sponsoring or supporting the work
 title: "[Sponsorship]: "
 labels: ["❤️ sponsorship"]
+assignees: callmesukhi
 body:
   - type: markdown
     attributes:
