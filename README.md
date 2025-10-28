@@ -67,16 +67,16 @@ DM me on GitHub or open an issue.
 
 ---
 
-## ⚖️ Disclaimer
- 
- <sup> - _All work here is created on my own time, in my personal capacity. It is not developed for, sponsored by, or endorsed by my employer (past or present)._
- 
- <sup> - _No SLA, no warranty, no guarantees. This is community/open source tooling: use it at your own risk, and only if you are allowed to do so under your company’s policies, contracts, and security rules._
+## <sub><sup> ⚖️ Disclaimer </sub></sup>
 
-<sup>_By using any code or ideas from my Open source repos/tools, you accept that:_
 
-<sup> - _I am not providing professional services or support._
+<sup><sub> _All work here is created on my own time, in my personal capacity. It is not developed for, sponsored by, or endorsed by my employer (past or present)._ || </sup></sub>
+<sup><sub> _No SLA, no warranty, no guarantees. This is community/open source tooling: use it at your own risk, and only if you are allowed to do so under your company’s policies, contracts, and security rules._ </sup></sub>
 
-<sup> - _I am not responsible for any impact, breakage, security exposure, audit findings, data loss, compliance issues, or production incidents._
+<sup><sub> __By using any code or ideas from my Open source repos/tools, you accept that:__ </sup></sub>
 
-<sup> - _You are responsible for reviewing, testing, and getting the appropriate approvals before using anything in your environment._
+<sup><sub> - _I am not providing professional services or support._
+
+<sup><sub> - _I am not responsible for any impact, breakage, security exposure, audit findings, data loss, compliance issues, or production incidents._
+
+<sup><sub> - _You are responsible for reviewing, testing, and getting the appropriate approvals before using anything in your environment._
