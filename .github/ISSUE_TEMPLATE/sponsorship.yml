@@ -19,7 +19,6 @@ body:
       options:
         - GitHub Sponsors (monthly/one-time)
         - Buy Me A Coffee
-        - Corporate sponsorship
         - Other (please describe below)
     validations:
       required: true
