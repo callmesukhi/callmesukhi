@@ -1,7 +1,7 @@
 name: 🤝 Collaboration / Partnership
 description: Reach out to collaborate on IT automation, security, or identity projects
 title: "[Collaboration]: "
-labels: ["collaboration"]
+labels: ["🤝 collaboration"]
 body:
   - type: markdown
     attributes:
