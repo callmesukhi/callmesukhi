@@ -2,6 +2,7 @@ name: 💬 Question / Discussion
 description: Ask a question or start a discussion about the projects and work
 title: "[Question]: "
 labels: ["💬 question"]
+assignees: callmesukhi
 body:
   - type: markdown
     attributes:
