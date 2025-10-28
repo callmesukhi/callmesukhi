@@ -2,7 +2,7 @@ name: 🤝 Collaboration / Partnership
 description: Reach out to collaborate on IT automation, security, or identity projects
 title: "[Collaboration]: "
 labels: ["🤝 collaboration"]
-assigne: callmesukhi
+assignees: callmesukhi
 body:
   - type: markdown
     attributes:
