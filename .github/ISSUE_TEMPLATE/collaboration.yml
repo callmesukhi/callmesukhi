@@ -1,0 +1,74 @@
+name: 🤝 Collaboration / Partnership
+description: Reach out to collaborate on IT automation, security, or identity projects
+title: "[Collaboration]: "
+labels: ["collaboration"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for reaching out! I'm interested in collaborating on practical IT automation projects.
+        
+        **Areas I focus on:**
+        - Access request automation
+        - Device management workflows
+        - Identity-driven access control (Okta, Entra ID, SCIM)
+        - Compliance and audit automation
+        - Internal tooling for IT/Security teams
+
+  - type: dropdown
+    id: collaboration-type
+    attributes:
+      label: What type of collaboration are you interested in?
+      options:
+        - Access / offboarding automation
+        - Identity sprawl (Okta + Entra + SaaS)
+        - Device posture / endpoint management
+        - Security-approved internal automation
+        - Other (please describe below)
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Tell me about your project or challenge
+      description: What are you trying to solve? What's the current manual process that needs automation?
+      placeholder: |
+        Example: "We're manually processing 50+ access requests per week across multiple systems. 
+        We need a workflow that integrates with our Okta SSO and creates reviewable PRs for access changes."
+    validations:
+      required: true
+
+  - type: textarea
+    id: current-tools
+    attributes:
+      label: What tools/platforms are you using?
+      description: List the relevant tools (identity providers, device management, ticketing systems, etc.)
+      placeholder: |
+        Example:
+        - Okta for SSO
+        - GitHub for version control
+        - Jamf for Mac management
+        - Slack for notifications
+    validations:
+      required: false
+
+  - type: textarea
+    id: timeline-scope
+    attributes:
+      label: Timeline and scope
+      description: What's your timeline? Is this a proof of concept or production deployment?
+      placeholder: "Example: Looking to pilot in Q1 2024, then roll out to 200+ users"
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: expectations
+    attributes:
+      label: Understanding
+      description: Please confirm you understand
+      options:
+        - label: I understand this is open source work with no SLA or guarantees
+          required: true
+        - label: I will follow my company's security and compliance policies
+          required: true

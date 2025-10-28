@@ -1,0 +1,51 @@
+name: 💬 Question / Discussion
+description: Ask a question or start a discussion about the projects and work
+title: "[Question]: "
+labels: ["question"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Have a question about the automation work, tools, or approaches used?
+        
+        **Topics I focus on:**
+        - IT automation and workflow design
+        - Identity and access management (Okta, Entra ID, SCIM)
+        - Device management (Jamf, Intune)
+        - Security-approved internal tooling
+        - Compliance and audit automation
+
+  - type: dropdown
+    id: topic
+    attributes:
+      label: What is your question about?
+      options:
+        - Identity and access management
+        - Device/endpoint management
+        - Automation architecture and design
+        - Security and compliance
+        - Specific project or repository
+        - General approach or philosophy
+        - Other
+    validations:
+      required: true
+
+  - type: textarea
+    id: question
+    attributes:
+      label: Your question
+      description: What would you like to know?
+      placeholder: "Example: How do you handle role-based access requests that need approval workflows?"
+    validations:
+      required: true
+
+  - type: textarea
+    id: context
+    attributes:
+      label: Context (optional)
+      description: Any additional context that might help answer your question?
+      placeholder: |
+        Example: "We're a 500-person company using Okta and GitHub. 
+        We need to automate access requests but maintain audit trails."
+    validations:
+      required: false
