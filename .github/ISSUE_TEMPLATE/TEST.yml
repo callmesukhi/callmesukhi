@@ -100,8 +100,8 @@ body:
     attributes:
       label: "12. Part Time or Full Time:"
       options:
-        - label: Part Time
-        - label: Full Time
+        - label: "Part Time"
+        - label: "Full Time"
     validations:
       required: true
 
@@ -146,8 +146,8 @@ body:
     attributes:
       label: "18. HM Confirms contractor has registered a username, owns this handle, and verified it belongs to them on https://github.com/:"
       options:
-        - label: Yes
-        - label: No
+        - label: "Yes"
+        - label: "No"
     validations:
       required: true
 
@@ -156,8 +156,8 @@ body:
     attributes:
       label: "19. HM confirms contractor's personal email is associated with their GitHub Handle:"
       options:
-        - label: Yes
-        - label: No
+        - label: "Yes"
+        - label: "No"
     validations:
       required: true
 
@@ -166,8 +166,8 @@ body:
     attributes:
       label: "20. Do you have a Supervisory Org? (You must have a Supervisory org in Workday in order to approve hours. If you have direct reports, you most likely have one. If not, one will need to be created.):"
       options:
-        - label: Yes
-        - label: No
+        - label: "Yes"
+        - label: "No"
     validations:
       required: true
 
@@ -191,8 +191,8 @@ body:
     attributes:
       label: "24. Will your contractor need access to any internal Github Resources (The Hub, repositories, or issues):"
       options:
-        - label: Yes
-        - label: No
+        - label: "Yes"
+        - label: "No"
     validations:
       required: true
 
@@ -210,7 +210,7 @@ body:
       label: "26. If your contractor requires Okta access for GitHub systems (ex. Slack, Google Mail, repos, Hub, Power BI, etc), they will need to be shipped a GitHub-managed device. If this is the case, please submit a ticket to IT with the contractors name, shipping address, and contact number here: https://github-it.zendesk.com/hc/en-us/requests/new"
       description: "_Note: If you do not provide them with a GitHub-managed device, they will not receive Okta access. The only exception to this is if they have a MSFT-issued device or a MSFT OS image._"
       options:
-        - label: Submit ticket
+        - label: "Submit ticket"
     validations:
       required: false
 
@@ -219,8 +219,8 @@ body:
     attributes:
       label: "27. Is the contactor in an Engineering Role?:"
       options:
-        - label: Engineering Role
-        - label: Non Engineering Role
+        - label: "Engineering Role"
+        - label: "Non Engineering Role"
     validations:
       required: true
 
@@ -229,8 +229,8 @@ body:
     attributes:
       label: "28. Will the contractor need access to Microsoft systems and tools? :"
       options:
-        - label: Yes
-        - label: No
+        - label: "Yes"
+        - label: "No"
     validations:
       required: true
 
@@ -293,7 +293,5 @@ body:
         | | |
         | ---------------------------------- | ---------------------------------- |
         | __Pull Requests__| 1. If your contractor will need access to **ANY** repo's within the overall GitHub organization, they will need to be provisioned through Entitlements. You can do this by opening a Pull Request on this file to add the contractor to github.com/github: https://github.com/github/entitlements/blob/master/github.com/github/org/always-on/member.txt. For more info & assistance please refer to [this document](https://thehub.github.com/it/references/contractor-onboarding/). If they will need access to a team in the org, open a pull request on the appropriate file here: https://github.com/github/entitlements/tree/master/github.com/github/teams   💡 See [documentation](https://github.com/github/entitlements/blob/master/docs/contractors.md#example-using-pizza-teams-to-manage-contractor-access-to-githubcom-and-github-team-assignment) on how to simplify this process if you expect to frequently onboard contractors into your organization. For engineering contractors, please read through [this document](https://github.com/github/contractors/blob/master/engineering-contractors.md) to make sure you are adding them to all the required entitlements. 
-        | __Signing In__| 2. Ask the contractor to head to [GitHub](https://www.github.com/settings/security) to set up their 2FA, [accept their invite](https://www.github.com/github), then log in to Okta, and follow the steps in [this document](https://github.com/github/thehub/files/5858652/What.is.WebAuthn.pdf) to set up their 2FA in Okta. **All Contractors MUST have a Yubikey or compatible strong auth factor on their start date. Contractors without a strong auth factor will be unable to log in to Okta.**
-        | __Internal Access__| All contractors requiring access to ANY GitHub internal systems or GitHub services must use a GitHub-managed machine. These machines are equipped with special certificates essential for accessing key services like Heaven, Sentry, DataDog, and Splunk, ensuring that only authorized GitHub personnel can access these applications. **Note: A GitHub-managed machine is not required if only Slack Connect access is needed. However, Slack Guest accounts do require a GitHub-managed machine since Okta access is necessary.**
-        | __Laptop__| Please open a [Zendesk IT ticket](https://github-it.zendesk.com/hc/en-us/requests/new) with the contractor's shipping address, email and phone number once their account has been onboarded and enabled. (**Note**: IT does not ship laptops to users without active accounts. Additionally, ensure the shipping destination is supported by referring to this [country logistics list](https://github.com/github/Workplace-Security/blob/master/Safety-and-Security-Playbook/Travel-Security-and-Protective-Services/travel-security-country-list.md), as some locations may have country-specific constraints.
-        | __Maintaining an Accurate Contract End Date__| The contractor **will lose access** at 12:00pm PT on the end date listed unless a [Contractor Renewal/Offboarding issue](https://github.com/github/procurement/issues/new?assignees=&labels=pre-contract+security-grc+review+NOT+required&template=contractor-renewal-off-boarding-issue.md&title=) is completed prior to the end date. As a manager, you will receive Workday notices 28 days, 14 days and 7 days prior to the contractor's termination date reminding you to take action. You **MUST** create a [Contractor Renewal/Offboarding issue](https://github.com/github/procurement/issues/new?assignees=&labels=pre-contract+security-grc+review+NOT+required&template=contractor-renewal-off-boarding-issue.md&title=) to either a) confirm an offboarding date or b) extend the end date. If your contractor needs to be termed before the end date listed, you must also create a [Contractor Renewal/Offboarding issue](https://github.com/github/procurement/issues/new?assignees=&labels=pre-contract+security-grc+review+NOT+required&template=contractor-renewal-off-boarding-issue.md&title=) right away.
+        | __Signing In__| 2. Ask the contractor to head to [GitHub](https://www.github.com/settings/security) to set
+
